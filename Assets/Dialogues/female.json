@@ -5,7 +5,7 @@
 			"option": "Hey, looks like you're working on something interesting?",
 
 			"response": {
-				"Female_Character": "Oh, yes. I'm researching a book on medieval art. Sorry, I might have gotten a little too involved.",
+				"Female_Character": "Oh, yes. I'm after-tasting on medieval art. Sorry, I might have gotten a little too involved.",
 				"branches": [
 					{
 						"option": "I'm also interested in medieval art, can you share some with me?",
@@ -169,7 +169,7 @@
 												"option": "I am more interested in the building technology of the church.",
 
 												"response": {
-													"Female_Character": " I didn't expect you to focus on technology, which surprises me. Let me tell you about it. The design concept of Gothic churches pays great attention to the upward direction. They use spires and flying buttresses. Such technology makes the building not only taller, but also more stable. Especially the spire, it is not only an aesthetic choice, but also a technical innovation.",
+													"Female_Character": " I didn't expect you are interested in technology, which surprises me. Let me tell you about it. The design concept of Gothic churches pays great attention to the upward direction. They use spires and flying buttresses. Such technology makes the building not only taller, but also more stable. Especially the spire, it is not only an aesthetic choice, but also a technical innovation.",
 													"branches": [
 														{
 															"option": "That's really interesting.",
@@ -232,19 +232,19 @@
 						}
 					},
 					{
-						"option": "I'm just looking for a book. It seems I disturbed you, I'm sorry.",
+						"option": "I just noticed that you don't seem to fit in with the atmosphere here. It seems I disturbed you, I'm sorry.",
 
 						"response": {
-							"Female_Character": "Oh, it's okay. In fact, I have spent a lot of time here, and I am familiar with the collection of books in this library. What book are you looking for? Maybe I can help you.",
+							"Female_Character": "Oh, it's okay. In fact, I have spent a lot of time here, I did not realize that I am not fitting here.",
 							"branches": [
 								{
-									"option": "Really? If it's not too much trouble, I'm looking for books on European history, specifically the medieval period.",
+									"option": "Really? What were you doing for so long? It does not seems to be like the party is started for so long.",
 
 									"response": {
-										"Female_Character": "Books about European history, especially the Middle Ages, are mostly in the west wing of the library. You can look for them on the bookshelves over there. I hope you can find the books you need.",
+										"Female_Character": "I’ve arrived here long ago before the gala started. There is no place for me to go anyway, even the nearest library is too far away from here",
 										"branches": [
 											{
-												"option": "Thank you very much for your help. I'll go check it out.",
+												"option": "I see.",
 												"response": {
 													"Female_Character": "The conversation ended, leaving no opportunity for further communication.",
 													"branches": []
@@ -254,7 +254,7 @@
 									}
 								},
 								{
-									"option": "No, I'll find it myself. Goodbye.",
+									"option": "It’s ok. Do whatever you would like is fine.",
 									"response": {
 										"Female_Character": "The conversation ended, leaving no opportunity for further communication.",
 										"branches": []
