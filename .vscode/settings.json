@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Valem Tutorial.sln"
+    "dotnet.defaultSolution": "vr-dating.sln"
 }
