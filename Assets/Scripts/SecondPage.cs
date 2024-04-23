@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEditor.Compilation;
+using UnityEditor.ShaderGraph.Serialization;
 
 [System.Serializable]
 class Response
@@ -28,11 +29,11 @@ public class SecondPage : MonoBehaviour
   private TMP_Text dialogueText;
   private GameObject closeButton;
   private Response dialogueData;
+  public TextAsset dialogueFile;
 
   private void loadJson()
   {
-    string path = "Assets/Dialogues/female.json";
-    string jsonString = File.ReadAllText(path);
+    string jsonString = dialogueFile.text;
     dialogueData = JsonUtility.FromJson<Response>(jsonString);
   }
 
