@@ -2,27 +2,27 @@
 	"Female_Character": "You are in a soiree, and you accidentally met Chris standing who is thinking deeply. Chris looked very focused as if he was preparing for some important project.",
 	"branches": [
 		{
-			"option": "\"Hey, you looks very focused on thinking? Does anything go wrong here?\"",
+			"option": "Hey, you looks very focused on thinking? Does anything go wrong here?",
 			"response": {
-				"Female_Character": "\"Oh! No, no. I'm thinking of my senior thesis, which focuses on the connection between human emotion and cognition. Sorry, I might Too focused on this.\"",
+				"Female_Character": "Oh! No, no. I'm thinking of my senior thesis, which focuses on the connection between human emotion and cognition. Sorry, I might Too focused on this.",
 				"branches": [
 					{
-						"option": "\"The connection between emotion and cognition? That sounds fascinating. Can you share more with me?\"",
+						"option": "The connection between emotion and cognition? That sounds fascinating. Can you share more with me?",
 						"response": {
-							"Female_Character": "\"Of course. I've found that emotions have a greater impact on our decisions than we think. Are you interested in this field?\"",
+							"Female_Character": "Of course. I've found that emotions have a greater impact on our decisions than we think. Are you interested in this field?",
 							"branches": [
 								{
-									"option": "\"Yes, I'm very interested in this.\"",
+									"option": "Yes, I'm very interested in this.",
 									"response": {
-										"Female_Character": "\"Chris's eyes lit up, 'This is a very interesting field. How emotions affect decision-making, especially under stressful situations, is indeed a topic worthy of discussion. In fact, there will be a lecture next week dedicated to this issue. I’m going to listen.'\"",
+										"Female_Character": "Chris's eyes lit up, 'This is a very interesting field. How emotions affect decision-making, especially under stressful situations, is indeed a topic worthy of discussion. In fact, there will be a lecture next week dedicated to this issue. I’m going to listen.'",
 										"branches": [
 											{
-												"option": "\"Oh, really? That sounds great. Do you mind if I tag along?\"",
+												"option": "Oh, really? That sounds great. Do you mind if I tag along?",
 												"response": {
-													"Female_Character": "\"Chris replied, 'Of course I don't mind. In fact, it might be more fruitful to have someone discuss their thoughts together. We can share our opinions with each other.'\"",
+													"Female_Character": "Chris replied, 'Of course I don't mind. In fact, it might be more fruitful to have someone discuss their thoughts together. We can share our opinions with each other.'",
 													"branches": [
 														{
-															"option": "\"Branch: After the lecture, the two of you discussed what you heard and found many common interests, which further deepened the friendship (feeling) between you.\"",
+															"option": "Branch: After the lecture, the two of you discussed what you heard and found many common interests, which further deepened the friendship (feeling) between you.",
 															"response": {}
 														}
 													]
@@ -32,17 +32,17 @@
 									}
 								},
 								{
-									"option": "\"To be honest, I don’t know much about psychology, but I’d love to learn it.\"",
+									"option": "To be honest, I don’t know much about psychology, but I’d love to learn it.",
 									"response": {
-										"Female_Character": "\"Chris said, 'It's always a good idea to learn about psychology, which can help us better understand ourselves and others. However, I may not have as much time to delve into it or participate in related activities.'\"",
+										"Female_Character": "Chris said, 'It's always a good idea to learn about psychology, which can help us better understand ourselves and others. However, I may not have as much time to delve into it or participate in related activities.'",
 										"branches": [
 											{
-												"option": "\"Oh, I see. So maybe I should start exploring psychology myself?\"",
+												"option": "Oh, I see. So maybe I should start exploring psychology myself?",
 												"response": {
-													"Female_Character": "\"Chris said softly, 'Yeah, I think that's a good place to start. The library few streets away has a lot of resources and you can start there.'\"",
+													"Female_Character": "Chris said softly, 'Yeah, I think that's a good place to start. The library few streets away has a lot of resources and you can start there.'",
 													"branches": [
 														{
-															"option": "\"Branch: Over the next few weeks, I attempted to study psychology on my own, but without Chris' presence and guidance, he found it difficult to stay motivated and interested. Whenever he tried to discuss his progress or confusion with Chris, Chris was always busy with his own research and rarely had time to respond.\"",
+															"option": "Branch: Over the next few weeks, I attempted to study psychology on my own, but without Chris' presence and guidance, he found it difficult to stay motivated and interested. Whenever he tried to discuss his progress or confusion with Chris, Chris was always busy with his own research and rarely had time to respond.",
 															"response": {}
 														}
 													]
@@ -52,14 +52,14 @@
 									}
 								},
 								{
-									"option": "\"I'm definitely interested, but I'm a little unsure whether I can fully understand this complex area. Perhaps you could simply point me to some introductory resources?\"",
+									"option": "I'm definitely interested, but I'm a little unsure whether I can fully understand this complex area. Perhaps you could simply point me to some introductory resources?",
 									"response": {
-										"Female_Character": "\"Chris replied apologetically: 'I really hope I can help. For beginners, the book 'Psychology and Life' is a good starting point. It covers the basic concepts of psychology and is very user-friendly. As for that lecture, I recommend you go and listen to it. Even though we may not have much time to discuss it together, it will definitely give you some valuable insights.'\"",
+										"Female_Character": "Chris replied apologetically: 'I really hope I can help. For beginners, the book 'Psychology and Life' is a good starting point. It covers the basic concepts of psychology and is very user-friendly. As for that lecture, I recommend you go and listen to it. Even though we may not have much time to discuss it together, it will definitely give you some valuable insights.'",
 										"branches": [
 											{
-												"option": "\"I was really sorry that we cannot go there together. thank you very much for spending time with me\"",
+												"option": "I was really sorry that we cannot go there together. thank you very much for spending time with me",
 												"response": {
-													"Female_Character": "\"The conversation ended, leaving no opportunity for further communication.\"",
+													"Female_Character": "The conversation ended, leaving no opportunity for further communication.",
 													"branches": []
 												}
 											}
@@ -70,22 +70,22 @@
 						}
 					},
 					{
-						"option": "\"It doesn't matter. Seeing how involved you are, I've become curious too.\"",
+						"option": "It doesn't matter. Seeing how involved you are, I've become curious too.",
 						"response": {
-							"Female_Character": "\"Actually, I'm studying the impact of emotion on memory. You know, emotional memories tend to be more lasting.\"",
+							"Female_Character": "Actually, I'm studying the impact of emotion on memory. You know, emotional memories tend to be more lasting.",
 							"branches": [
 								{
-									"option": "\"This is really interesting. I wonder why this happens.\"",
+									"option": "This is really interesting. I wonder why this happens.",
 									"response": {
-										"Female_Character": "\"Chris begins to explain: 'This phenomenon, often called the emotional memory effect, occurs because our brains tend to encode emotionally intense events into more lasting memories. For example, you may find that you have an easier time remembering events that were particularly happy or The sad days, not the mundane ones.'\"",
+										"Female_Character": "Chris begins to explain: 'This phenomenon, often called the emotional memory effect, occurs because our brains tend to encode emotionally intense events into more lasting memories. For example, you may find that you have an easier time remembering events that were particularly happy or The sad days, not the mundane ones.'",
 										"branches": [
 											{
-												"option": "\"This explains why I always remember special days so vividly. So, how can we take advantage of this?\"",
+												"option": "This explains why I always remember special days so vividly. So, how can we take advantage of this?",
 												"response": {
-													"Female_Character": "\"Chris suggested: 'A good way to enhance learning is through emotion regulation techniques, such as incorporating positive emotions when learning new knowledge. How about we go to a coffee shop next time and discuss more? I can share some practical ways to apply these principles.'\"",
+													"Female_Character": "Chris suggested: 'A good way to enhance learning is through emotion regulation techniques, such as incorporating positive emotions when learning new knowledge. How about we go to a coffee shop next time and discuss more? I can share some practical ways to apply these principles.'",
 													"branches": [
 														{
-															"option": "\"Branch: Discussed more psychological applications and exchanged contact information to continue contacting in the future. This brings you closer together. Chris suggested that we discuss more psychological topics together next time .\"",
+															"option": "Branch: Discussed more psychological applications and exchanged contact information to continue contacting in the future. This brings you closer together. Chris suggested that we discuss more psychological topics together next time .",
 															"response": {}
 														}
 													]
@@ -95,17 +95,17 @@
 									}
 								},
 								{
-									"option": "\"I think I had a similar experience.\"",
+									"option": "I think I had a similar experience.",
 									"response": {
-										"Female_Character": "\"Chris asked, 'Oh? Are you willing to share? Such experiences can provide a very valuable perspective for psychological research.'\"",
+										"Female_Character": "Chris asked, 'Oh? Are you willing to share? Such experiences can provide a very valuable perspective for psychological research.'",
 										"branches": [
 											{
-												"option": "\"I shared a personal experience about how to find strength through positive emotions during difficult times.\"",
+												"option": "I shared a personal experience about how to find strength through positive emotions during difficult times.",
 												"response": {
-													"Female_Character": "\"Chris : 'Your experience is so illuminating. Emotions do play a complex and profound role in our lives. Listening to you talk about it, I think we can explore more about the interplay between emotions and cognition. effect.'\"",
+													"Female_Character": "Chris : 'Your experience is so illuminating. Emotions do play a complex and profound role in our lives. Listening to you talk about it, I think we can explore more about the interplay between emotions and cognition. effect.'",
 													"branches": [
 														{
-															"option": "\"Branch: After your sharing, the two began to frequently exchange their life experiences and views on psychology. They secretly developed feelings, and finally succeeded in taking the relationship further.\"",
+															"option": "Branch: After your sharing, the two began to frequently exchange their life experiences and views on psychology. They secretly developed feelings, and finally succeeded in taking the relationship further.",
 															"response": {}
 														}
 													]
@@ -118,27 +118,27 @@
 						}
 					},
 					{
-						"option": "\"I see. It seems I disturbed you. I just noticed that you don't seem to fit in with the atmosphere here.\"",
+						"option": "I see. It seems I disturbed you. I just noticed that you don't seem to fit in with the atmosphere here.",
 						"response": {
-							"Female_Character": "\"It's okay. I hope I would not be too wired that consistently looking at my phone\"",
+							"Female_Character": "It's okay. I hope I would not be too wired that consistently looking at my phone",
 							"branches": [
 								{
-									"option": "\"3.1 'I’m wondering what your are looking at since it looks so interesting to you'\"",
+									"option": "3.1 'I’m wondering what your are looking at since it looks so interesting to you'",
 									"response": {
-										"Female_Character": "\"Chris: 'I've found that emotions have a greater impact on our decisions than we think. Are you interested in this field?'\"",
+										"Female_Character": "Chris: 'I've found that emotions have a greater impact on our decisions than we think. Are you interested in this field?'",
 										"branches": [
 											{
-												"option": "\"3.1.2 'Yes, I'm very interested in this.'\"",
+												"option": "3.1.2 'Yes, I'm very interested in this.'",
 												"response": {
-													"Female_Character": "\"Chris's eyes lit up, 'This is a very interesting field. How emotions affect decision-making, especially under stressful situations, is indeed a topic worthy of discussion. In fact, there will be a lecture next week dedicated to this issue. I’m going to listen.'\"",
+													"Female_Character": "Chris's eyes lit up, 'This is a very interesting field. How emotions affect decision-making, especially under stressful situations, is indeed a topic worthy of discussion. In fact, there will be a lecture next week dedicated to this issue. I’m going to listen.'",
 													"branches": [
 														{
-															"option": "\"3.1.2.1 'Oh, really? That sounds great. Do you mind if I tag along?'\"",
+															"option": "3.1.2.1 'Oh, really? That sounds great. Do you mind if I tag along?'",
 															"response": {
-																"Female_Character": "\"Chris replied, 'Of course I don't mind. In fact, it might be more fruitful to have someone discuss their thoughts together. We can share our opinions with each other.'\"",
+																"Female_Character": "Chris replied, 'Of course I don't mind. In fact, it might be more fruitful to have someone discuss their thoughts together. We can share our opinions with each other.'",
 																"branches": [
 																	{
-																		"option": "\"Branch: After the lecture, the two of you discussed what you heard and found many common interests, which further deepened the friendship (feeling) between you.\"",
+																		"option": "Branch: After the lecture, the two of you discussed what you heard and found many common interests, which further deepened the friendship (feeling) between you.",
 																		"response": {}
 																	}
 																]
