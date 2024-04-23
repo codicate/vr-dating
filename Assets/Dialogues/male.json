@@ -1,45 +1,92 @@
 {
-	"Female_Character": "You are looking for a book in the library. You find a female character sitting next to him reading. She looked very focused, with several books lying around her, as if she was researching a particular topic.",
+	"Female_Character": "You are in a soiree, and you accidentally met Chris standing who is thinking deeply. Chris looked very focused as if he was preparing for some important project.",
 	"branches": [
 		{
-			"option": "Hey, looks like you're working on something interesting?",
-
+			"option": "\"Hey, you looks very focused on thinking? Does anything go wrong here?\"",
 			"response": {
-				"Female_Character": "Oh, yes. I'm researching a book on medieval art. Sorry, I might have gotten a little too involved.",
+				"Female_Character": "\"Oh! No, no. I'm thinking of my senior thesis, which focuses on the connection between human emotion and cognition. Sorry, I might Too focused on this.\"",
 				"branches": [
 					{
-						"option": "I'm also interested in medieval art, can you share some with me?",
-
+						"option": "\"The connection between emotion and cognition? That sounds fascinating. Can you share more with me?\"",
 						"response": {
-							"Female_Character": "Really? That's great, I'd love to share it with you. What are you most interested in?",
+							"Female_Character": "\"Of course. I've found that emotions have a greater impact on our decisions than we think. Are you interested in this field?\"",
 							"branches": [
 								{
-									"option": "I am particularly interested in medieval paintings.",
-
+									"option": "\"Yes, I'm very interested in this.\"",
 									"response": {
-										"Female_Character": "That's a coincidence. I've been studying religious symbolism in medieval paintings. There's one painting I particularly like, but it's quite complicated to interpret. Do you have any thoughts on this?",
+										"Female_Character": "\"Chris's eyes lit up, 'This is a very interesting field. How emotions affect decision-making, especially under stressful situations, is indeed a topic worthy of discussion. In fact, there will be a lecture next week dedicated to this issue. I’m going to listen.'\"",
 										"branches": [
 											{
-												"option": "I think those symbols mainly reflected the religious beliefs and social structure of the time.",
-
+												"option": "\"Oh, really? That sounds great. Do you mind if I tag along?\"",
 												"response": {
-													"Female_Character": "The female character appreciates your insights, and the two further discuss other artworks from the period, deciding to go to an art exhibition together next time.",
+													"Female_Character": "\"Chris replied, 'Of course I don't mind. In fact, it might be more fruitful to have someone discuss their thoughts together. We can share our opinions with each other.'\"",
+													"branches": [
+														{
+															"option": "\"Branch: After the lecture, the two of you discussed what you heard and found many common interests, which further deepened the friendship (feeling) between you.\"",
+															"response": {}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"option": "\"To be honest, I don’t know much about psychology, but I’d love to learn it.\"",
+									"response": {
+										"Female_Character": "\"Chris said, 'It's always a good idea to learn about psychology, which can help us better understand ourselves and others. However, I may not have as much time to delve into it or participate in related activities.'\"",
+										"branches": [
+											{
+												"option": "\"Oh, I see. So maybe I should start exploring psychology myself?\"",
+												"response": {
+													"Female_Character": "\"Chris said softly, 'Yeah, I think that's a good place to start. The library few streets away has a lot of resources and you can start there.'\"",
+													"branches": [
+														{
+															"option": "\"Branch: Over the next few weeks, I attempted to study psychology on my own, but without Chris' presence and guidance, he found it difficult to stay motivated and interested. Whenever he tried to discuss his progress or confusion with Chris, Chris was always busy with his own research and rarely had time to respond.\"",
+															"response": {}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"option": "\"I'm definitely interested, but I'm a little unsure whether I can fully understand this complex area. Perhaps you could simply point me to some introductory resources?\"",
+									"response": {
+										"Female_Character": "\"Chris replied apologetically: 'I really hope I can help. For beginners, the book 'Psychology and Life' is a good starting point. It covers the basic concepts of psychology and is very user-friendly. As for that lecture, I recommend you go and listen to it. Even though we may not have much time to discuss it together, it will definitely give you some valuable insights.'\"",
+										"branches": [
+											{
+												"option": "\"I was really sorry that we cannot go there together. thank you very much for spending time with me\"",
+												"response": {
+													"Female_Character": "\"The conversation ended, leaving no opportunity for further communication.\"",
 													"branches": []
 												}
-											},
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"option": "\"It doesn't matter. Seeing how involved you are, I've become curious too.\"",
+						"response": {
+							"Female_Character": "\"Actually, I'm studying the impact of emotion on memory. You know, emotional memories tend to be more lasting.\"",
+							"branches": [
+								{
+									"option": "\"This is really interesting. I wonder why this happens.\"",
+									"response": {
+										"Female_Character": "\"Chris begins to explain: 'This phenomenon, often called the emotional memory effect, occurs because our brains tend to encode emotionally intense events into more lasting memories. For example, you may find that you have an easier time remembering events that were particularly happy or The sad days, not the mundane ones.'\"",
+										"branches": [
 											{
-												"option": "To be honest, I don’t know much about it, but I’d love to learn.",
-
+												"option": "\"This explains why I always remember special days so vividly. So, how can we take advantage of this?\"",
 												"response": {
-													"Female_Character": "That's great, I think it's always fun to explore new things. There's an exhibition opening soon dedicated to different aspects of medieval art, including painting, sculpture and architecture. I think it would be a great starting point.",
+													"Female_Character": "\"Chris suggested: 'A good way to enhance learning is through emotion regulation techniques, such as incorporating positive emotions when learning new knowledge. How about we go to a coffee shop next time and discuss more? I can share some practical ways to apply these principles.'\"",
 													"branches": [
 														{
-															"option": "I'd love to!",
-
-															"response": {
-																"Female_Character": "The female character is pleased with your positive attitude and proposes to meet on the day of the exhibition. This is not only a learning opportunity, but also an important step in the relationship.",
-																"branches": []
-															}
+															"option": "\"Branch: Discussed more psychological applications and exchanged contact information to continue contacting in the future. This brings you closer together. Chris suggested that we discuss more psychological topics together next time .\"",
+															"response": {}
 														}
 													]
 												}
@@ -48,84 +95,18 @@
 									}
 								},
 								{
-									"option": "I'm more curious about medieval sculptures.",
-
+									"option": "\"I think I had a similar experience.\"",
 									"response": {
-										"Female_Character": "Medieval sculpture? That's a very interesting topic, although I'm not particularly familiar with it. Which period of sculpture are you interested in?",
+										"Female_Character": "\"Chris asked, 'Oh? Are you willing to share? Such experiences can provide a very valuable perspective for psychological research.'\"",
 										"branches": [
 											{
-												"option": "I am interested in Romanesque sculpture, especially their use in church architecture.",
-
+												"option": "\"I shared a personal experience about how to find strength through positive emotions during difficult times.\"",
 												"response": {
-													"Female_Character": "This is a really interesting topic. Although I don’t know much about sculpture, I know that the museum downtown has some collections of Romanesque art. Maybe we can go there together and learn more about this period. Art.",
+													"Female_Character": "\"Chris : 'Your experience is so illuminating. Emotions do play a complex and profound role in our lives. Listening to you talk about it, I think we can explore more about the interplay between emotions and cognition. effect.'\"",
 													"branches": [
 														{
-															"option": "I'd love to!",
-
-															"response": {
-																"Female_Character": "Although the conversation may seem stilted at first, shared interests and a desire to explore new knowledge bring you closer together. The trip to the museum becomes an important moment in your relationship.",
-																"branches": []
-															}
-														}
-													]
-												}
-											},
-											{
-												"option": "Actually, I just started to be interested in this topic and I don’t know where to start.",
-
-												"response": {
-													"Female_Character": "I know how it feels. It's always a bit difficult to start exploring a completely new area. Maybe you could start with some basic books and online resources . Or I know there's a museum exhibit opening soon in the city center dedicated to medieval art. different aspects, including painting, sculpture and architecture. I thought that would be a good starting point.",
-													"branches": [
-														{
-															"option": "I'd love to!",
-
-															"response": {
-																"Female_Character": "Even though the conversation gets off to a rocky start, your shared goals and desires provide the opportunity for you to grow and learn together. Over time, by working together, your relationship becomes",
-																"branches": []
-															}
-														}
-													]
-												}
-											}
-										]
-									}
-								},
-								{
-									"option": "I don’t know much about architecture, but I would like to know more.",
-
-									"response": {
-										"Female_Character": "This is great! I think the best way to understand architecture is to go and see those buildings in person. For example, our city has several very representative medieval buildings. If you are interested maybe we We can explore together.",
-										"branches": [
-											{
-												"option": "I'd love to do it, it sounds like an adventure.",
-
-												"response": {
-													"Female_Character": "Great! I know a route that will allow us to visit several representative medieval buildings. Each one has its own unique story and architectural features, and I can share the historical background of these buildings along the way.",
-													"branches": [
-														{
-															"option": "I'd love to!",
-
-															"response": {
-																"Female_Character": "A weekend architectural tour not only increases your knowledge of medieval architecture, but also allows you and the female character to become closer friends through shared interests and explorations. This experience adds a special layer of bonding to your relationship.",
-																"branches": []
-															}
-														}
-													]
-												}
-											},
-											{
-												"option": "I want to start by understanding the basics.",
-
-												"response": {
-													"Female_Character": "Well, I see what you mean. In fact, self-study is a great starting point for exploring new areas. There are many online resources and books that can help you build the basics.",
-													"branches": [
-														{
-															"option": "I'd love to!",
-
-															"response": {
-																"Female_Character": "Attempts to reach out: Over the next few weeks, you try to initiate a conversation several times, hoping to find common interests to reignite the conversation. However, the female character seems to have no interest in continuing the relationship, and her replies are few and far between, leaving you frustrated.",
-																"branches": []
-															}
+															"option": "\"Branch: After your sharing, the two began to frequently exchange their life experiences and views on psychology. They secretly developed feelings, and finally succeeded in taking the relationship further.\"",
+															"response": {}
 														}
 													]
 												}
@@ -137,127 +118,36 @@
 						}
 					},
 					{
-						"option": "It doesn't matter. Seeing you so focused, I'm a little curious about what makes you so obsessed.",
-
+						"option": "\"I see. It seems I disturbed you. I just noticed that you don't seem to fit in with the atmosphere here.\"",
 						"response": {
-							"Female_Character": "Oh, this book is about medieval architecture. I find the stories behind them fascinating.",
+							"Female_Character": "\"It's okay. I hope I would not be too wired that consistently looking at my phone\"",
 							"branches": [
 								{
-									"option": "That does sound interesting. What's your favorite story?",
-
+									"option": "\"3.1 'I’m wondering what your are looking at since it looks so interesting to you'\"",
 									"response": {
-										"Female_Character": "My favorite stories are about the architecture of Gothic churches. They are not just symbols of religion, but a sign of technological and artistic achievement in the Middle Ages. There is one story in particular about the building of Notre Dame that you want to Do you listen?",
+										"Female_Character": "\"Chris: 'I've found that emotions have a greater impact on our decisions than we think. Are you interested in this field?'\"",
 										"branches": [
 											{
-												"option": "Of course, I'm very interested.",
-
+												"option": "\"3.1.2 'Yes, I'm very interested in this.'\"",
 												"response": {
-													"Female_Character": "Construction of Notre-Dame began in 1163 and is an example of Gothic architecture. Did you know that its construction lasted almost two centuries? What is particularly interesting is the design of its flying buttresses, It’s a structure designed to support heavy walls, allowing the church to have more window area, allowing light to fully enter.",
+													"Female_Character": "\"Chris's eyes lit up, 'This is a very interesting field. How emotions affect decision-making, especially under stressful situations, is indeed a topic worthy of discussion. In fact, there will be a lecture next week dedicated to this issue. I’m going to listen.'\"",
 													"branches": [
 														{
-															"option": "Oh cool!",
-
+															"option": "\"3.1.2.1 'Oh, really? That sounds great. Do you mind if I tag along?'\"",
 															"response": {
-																"Female_Character": "You further discuss the use of light in Gothic architecture and how this technique affects the atmosphere inside the church. Finally, you decide to visit the city's Gothic cathedrals together next weekend to see firsthand the beauty of these architectural techniques.",
-																"branches": []
-															}
-														}
-													]
-												}
-											},
-											{
-												"option": "I am more interested in the building technology of the church.",
-
-												"response": {
-													"Female_Character": " I didn't expect you to focus on technology, which surprises me. Let me tell you about it. The design concept of Gothic churches pays great attention to the upward direction. They use spires and flying buttresses. Such technology makes the building not only taller, but also more stable. Especially the spire, it is not only an aesthetic choice, but also a technical innovation.",
-													"branches": [
-														{
-															"option": "That's really interesting.",
-
-															"response": {
-																"Female_Character": "Female Characters explains how medieval engineers overcame technical difficulties to achieve this design. This discussion gives you a new appreciation for the wisdom and beauty of medieval architecture. You plan to spend the coming weekend together visiting some local Gothic churches to learn more about these techniques.",
-																"branches": []
+																"Female_Character": "\"Chris replied, 'Of course I don't mind. In fact, it might be more fruitful to have someone discuss their thoughts together. We can share our opinions with each other.'\"",
+																"branches": [
+																	{
+																		"option": "\"Branch: After the lecture, the two of you discussed what you heard and found many common interests, which further deepened the friendship (feeling) between you.\"",
+																		"response": {}
+																	}
+																]
 															}
 														}
 													]
 												}
 											}
 										]
-									}
-								},
-								{
-									"option": "I don’t know much about architecture, but I would like to know more.",
-
-									"response": {
-										"Female_Character": "This is great! I think the best way to understand architecture is to go and see those buildings in person. For example, our city has several very representative medieval buildings. If you are interested maybe we We can explore together.",
-										"branches": [
-											{
-												"option": "I'd love to do it, it sounds like an adventure.",
-
-												"response": {
-													"Female_Character": "Great! I know a route that will allow us to visit several representative medieval buildings. Each one has its own unique story and architectural features, and I can share the historical background of these buildings along the way.",
-													"branches": [
-														{
-															"option": "I'd love to!",
-
-															"response": {
-																"Female_Character": "A weekend architectural tour not only increases your knowledge of medieval architecture, but also allows you and the female character to become closer friends through shared interests and explorations. This experience adds a special layer of bonding to your relationship.",
-																"branches": []
-															}
-														}
-													]
-												}
-											},
-											{
-												"option": "I want to start by understanding the basics.",
-
-												"response": {
-													"Female_Character": "Well, I see what you mean. In fact, self-study is a great starting point for exploring new areas. There are many online resources and books that can help you build the basics.",
-													"branches": [
-														{
-															"option": "I see.",
-
-															"response": {
-																"Female_Character": "Attempts to reach out: Over the next few weeks, you try to initiate a conversation several times, hoping to find common interests to reignite the conversation. However, the female character seems to have no interest in continuing the relationship, and her replies are few and far between, leaving you frustrated.",
-																"branches": []
-															}
-														}
-													]
-												}
-											}
-										]
-									}
-								}
-							]
-						}
-					},
-					{
-						"option": "I'm just looking for a book. It seems I disturbed you, I'm sorry.",
-
-						"response": {
-							"Female_Character": "Oh, it's okay. In fact, I have spent a lot of time here, and I am familiar with the collection of books in this library. What book are you looking for? Maybe I can help you.",
-							"branches": [
-								{
-									"option": "Really? If it's not too much trouble, I'm looking for books on European history, specifically the medieval period.",
-
-									"response": {
-										"Female_Character": "Books about European history, especially the Middle Ages, are mostly in the west wing of the library. You can look for them on the bookshelves over there. I hope you can find the books you need.",
-										"branches": [
-											{
-												"option": "Thank you very much for your help. I'll go check it out.",
-												"response": {
-													"Female_Character": "The conversation ended, leaving no opportunity for further communication.",
-													"branches": []
-												}
-											}
-										]
-									}
-								},
-								{
-									"option": "No, I'll find it myself. Goodbye.",
-									"response": {
-										"Female_Character": "The conversation ended, leaving no opportunity for further communication.",
-										"branches": []
 									}
 								}
 							]

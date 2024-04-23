@@ -84,3 +84,6 @@ public class SecondPage : MonoBehaviour
     UpdateDialogue(d);
   }
 }
+
+
+"Female_Character": "You are in a soiree, and you accidentally met Chris standing who is thinking deeply. Chris looked very focused as if he was preparing for some important project.",

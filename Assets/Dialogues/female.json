@@ -1,5 +1,5 @@
 {
-	"Female_Character": "You are looking for a book in the library. You find a female character sitting next to him reading. She looked very focused, with several books lying around her, as if she was researching a particular topic.",
+	"Female_Character": "You are looking for a book in the library. You find Allison sitting next to you. She looked very focused, with several books lying around her, as if she was researching a particular topic.",
 	"branches": [
 		{
 			"option": "Hey, looks like you're working on something interesting?",
@@ -23,7 +23,7 @@
 												"option": "I think those symbols mainly reflected the religious beliefs and social structure of the time.",
 
 												"response": {
-													"Female_Character": "The female character appreciates your insights, and the two further discuss other artworks from the period, deciding to go to an art exhibition together next time.",
+													"Female_Character": "Allison appreciates your insights, and the two further discuss other artworks from the period, deciding to go to an art exhibition together next time.",
 													"branches": []
 												}
 											},
@@ -37,7 +37,7 @@
 															"option": "I'd love to!",
 
 															"response": {
-																"Female_Character": "The female character is pleased with your positive attitude and proposes to meet on the day of the exhibition. This is not only a learning opportunity, but also an important step in the relationship.",
+																"Female_Character": "Allison is pleased with your positive attitude and proposes to meet on the day of the exhibition. This is not only a learning opportunity, but also an important step in the relationship.",
 																"branches": []
 															}
 														}
@@ -106,7 +106,7 @@
 															"option": "I'd love to!",
 
 															"response": {
-																"Female_Character": "A weekend architectural tour not only increases your knowledge of medieval architecture, but also allows you and the female character to become closer friends through shared interests and explorations. This experience adds a special layer of bonding to your relationship.",
+																"Female_Character": "A weekend architectural tour not only increases your knowledge of medieval architecture, but also allows you and Allison to become closer friends through shared interests and explorations. This experience adds a special layer of bonding to your relationship.",
 																"branches": []
 															}
 														}
@@ -123,7 +123,7 @@
 															"option": "I'd love to!",
 
 															"response": {
-																"Female_Character": "Attempts to reach out: Over the next few weeks, you try to initiate a conversation several times, hoping to find common interests to reignite the conversation. However, the female character seems to have no interest in continuing the relationship, and her replies are few and far between, leaving you frustrated.",
+																"Female_Character": "Attempts to reach out: Over the next few weeks, you try to initiate a conversation several times, hoping to find common interests to reignite the conversation. However, Allison seems to have no interest in continuing the relationship, and her replies are few and far between, leaving you frustrated.",
 																"branches": []
 															}
 														}
@@ -201,7 +201,7 @@
 															"option": "I'd love to!",
 
 															"response": {
-																"Female_Character": "A weekend architectural tour not only increases your knowledge of medieval architecture, but also allows you and the female character to become closer friends through shared interests and explorations. This experience adds a special layer of bonding to your relationship.",
+																"Female_Character": "A weekend architectural tour not only increases your knowledge of medieval architecture, but also allows you and Allison to become closer friends through shared interests and explorations. This experience adds a special layer of bonding to your relationship.",
 																"branches": []
 															}
 														}
@@ -218,7 +218,7 @@
 															"option": "I see.",
 
 															"response": {
-																"Female_Character": "Attempts to reach out: Over the next few weeks, you try to initiate a conversation several times, hoping to find common interests to reignite the conversation. However, the female character seems to have no interest in continuing the relationship, and her replies are few and far between, leaving you frustrated.",
+																"Female_Character": "Attempts to reach out: Over the next few weeks, you try to initiate a conversation several times, hoping to find common interests to reignite the conversation. However, Allison seems to have no interest in continuing the relationship, and her replies are few and far between, leaving you frustrated.",
 																"branches": []
 															}
 														}

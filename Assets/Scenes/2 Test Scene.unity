@@ -32719,7 +32719,7 @@ MonoBehaviour:
   buttonPrefab: {fileID: 6115907815623594224, guid: 4787f3e0ad80e5249846f682cb0a0373,
     type: 3}
   parentTransform: {fileID: 1246339713}
-  dialogueFile: {fileID: 0}
+  dialogueFile: {fileID: 4900000, guid: 41df7c5263496df42a57352f3c6a5217, type: 3}
 --- !u!1001 &1246919980
 PrefabInstance:
   m_ObjectHideFlags: 0
