@@ -29,7 +29,9 @@ public class SecondPage : MonoBehaviour
   private TMP_Text dialogueText;
   private GameObject closeButton;
   private Response dialogueData;
+  private Transform dialogueTransform;
   public TextAsset dialogueFile;
+
 
   private void loadJson()
   {
@@ -40,7 +42,7 @@ public class SecondPage : MonoBehaviour
   void Start()
   {
     loadJson();
-    Transform dialogueTransform = transform.Find("Dialogue");
+    dialogueTransform = transform.Find("Dialogue");
     dialogueText = dialogueTransform.GetComponentInChildren<TMP_Text>();
     UpdateDialogue(dialogueData);
 
@@ -51,6 +53,7 @@ public class SecondPage : MonoBehaviour
   private void UpdateDialogue(Response d)
   {
     dialogueText.text = d.Female_Character;
+    dialogueTransform.GetComponent<TextAnim>().EndCheck();
 
     //Delete all buttons that are already there, only delete if its button
     foreach (Transform child in parentTransform)
